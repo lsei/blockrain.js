@@ -1,6 +1,16 @@
 Blockrain.js
 ============
 
+## Lucas Notes
+Trigger events externally by simulating keydown.
+```javascript
+var e = $.Event("keydown.blockrain"); e.keyCode = 38; $(document).trigger(e);
+```
+
+
+Real Readme
+===========
+
 A tetris game in HTML5 + Javascript (with autoplay!)
 
 **[Check out the demo](http://aerolab.github.io/blockrain.js/)**
